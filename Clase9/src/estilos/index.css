@@ -1,0 +1,47 @@
+/*
+Sintaxis css
+
+Regla o rule
+*/
+
+/*SELECTOR DE TIPO */
+body {
+    background-color:azure
+}
+
+header {
+    background-color:rgb(202, 175, 175)
+}
+
+a {
+    text-decoration: none;
+}
+
+/*SELECTOR DE CLASE */
+.vinculos {
+    color: lightgrey;
+}
+
+nav a {
+    color:gold;
+}
+
+.cabecera {
+    background-color:red;
+}
+
+.principal {
+    background-color: darkgreen;
+}
+
+.pie {
+    background-color: darkblue;
+}
+
+/*Reglas de clase rompe cascada con las de selector.*/
+
+/*SELECTOR DE ATRIBUTO */
+/*#contacto {
+    background-color: yellow;
+} */
+
