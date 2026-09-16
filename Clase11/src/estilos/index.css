@@ -1,0 +1,81 @@
+/*
+Sintaxis css
+
+Regla o rule
+*/
+
+@font-face {
+    font-family: fancy;
+    src: url(/Clase11/src/recursos/fuentes/PinyonScript-Regular.ttf);
+}
+
+html{
+    font-family: fancy;
+}
+
+/*SELECTOR DE TIPO */
+body {
+    background-color:azure
+}
+
+header {
+    background-color:rgb(202, 175, 175)
+}
+
+a {
+    text-decoration: none;
+}
+
+/*SELECTOR DE CLASE */
+.vinculos {
+    color: lightgrey;
+}
+
+nav a {
+    color:gold;
+}
+
+.cabecera {
+    width: 100%;
+    height: 80px;
+    background-color: #a7a7a7;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    /*o padding: 5px 10px 20px 10px;*/
+    border-bottom: 2px solid #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+/*NUEVO Clase 11*/
+.cabecera a img {
+    width: 50px;
+}
+
+.cabecera .vinculos a {
+    color: #222;
+}
+
+.principal {
+    padding: 10px 20px;
+}
+
+.principal form input{
+    display: block;
+}
+
+.pie {
+    background-color: darkblue;
+}
+
+/*Reglas de clase rompe cascada con las de tipo.*/
+
+/*SELECTOR DE ATRIBUTO */
+/*#contacto {
+    background-color: yellow;
+} */
+
+/*SELECTOR id*/

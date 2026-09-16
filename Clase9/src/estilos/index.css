@@ -38,10 +38,11 @@ nav a {
     background-color: darkblue;
 }
 
-/*Reglas de clase rompe cascada con las de selector.*/
+/*Reglas de clase rompe cascada con las de tipo.*/
 
 /*SELECTOR DE ATRIBUTO */
 /*#contacto {
     background-color: yellow;
 } */
 
+/*SELECTOR id*/
