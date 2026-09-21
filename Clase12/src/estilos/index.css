@@ -1,0 +1,100 @@
+/*
+Sintaxis css
+
+Regla o rule
+*/
+
+@font-face {
+    font-family: fancy;
+    src: url(/Clase11/src/recursos/fuentes/PinyonScript-Regular.ttf);
+}
+
+html{
+    font-family: fancy;
+    font-size: 18px;
+}
+
+/*SELECTOR DE TIPO */
+body {
+    background-color:azure
+}
+
+header {
+    background-color:rgb(202, 175, 175)
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+/*SELECTOR DE CLASE */
+.vinculos {
+    color: lightgrey;
+}
+
+nav a {
+    color:gold;
+}
+
+.cabecera {
+    position: sticky;
+    top: 0;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #a7a7a7;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    /*o padding: 5px 10px 20px 10px;*/
+    border-bottom: 2px solid #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+/*NUEVO Clase 11*/
+.cabecera a img {
+    width: 50px;
+}
+
+.cabecera .vinculos a {
+    color: #222;
+}
+
+.principal {
+    padding: 10px 20px;
+}
+
+/*.principal .parrafo {
+    position: absolute;
+}*/
+
+.principal form input{
+    display: block;
+}
+
+.pie {
+    background-color: #a7a7a7;
+}
+
+.pie .mensajeria {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    list-style: none;
+}
+
+/*Reglas de clase rompe cascada con las de tipo.*/
+
+/*SELECTOR DE ATRIBUTO */
+/*#contacto {
+    background-color: yellow;
+} */
+
+/*SELECTOR id*/
