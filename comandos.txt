@@ -1,0 +1,21 @@
+Organizar proyecto y utilizar node y pnpm para trabajar:
+
+1. Crear directorio de trabajo
+
+2. Instalar pnpm (solo en el laboratorio - si trabajan con su notebook, ya debería estar instalado) 
+-> npm i -g pnpm
+
+3. Inicializar proyecto -> pn init
+
+4. Instalar un paquete de servidor -> pn add five-server
+
+5. Configurar scripts en package.json -> “dev”: “five-server”
+
+6. Crear archivo de configuración de five-server .fiveserverrc
+{
+      “root”:”src”
+}
+
+7. Crear carpeta src y copiar proyecto de la actividad
+
+8. Correr proyecto -> pn dev
