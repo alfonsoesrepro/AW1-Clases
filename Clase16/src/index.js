@@ -47,3 +47,52 @@ const numerosMasUnoMap = numeros.map((numero) => {
 
 console.log(numerosMasUnoMap)
 
+
+
+const personas = [
+    {
+        nombre: "Alfo",
+        edad: 23
+    },
+    {
+        nombre: "Bau",
+        edad: 20
+    },
+    {
+        nombre: "Caesar",
+        edad: 21
+    },
+    {
+        nombre: "Agu",
+        edad: 19
+    }
+]
+
+// For Each
+personas.forEach((persona, i, arreglo) => {
+    console.log(persona.edad, i, arreglo)
+})
+
+// Map
+const arregloMap = personas.map((persona, i, arreglo) => {
+    return {
+        ...persona,
+        edad: persona.edad + 1
+    }
+})
+console.log("Map")
+console.log(arregloMap)
+
+// Filter
+const arregloFilter = personas.filter((persona, i, arreglo) => {
+    return persona.edad > 20
+})
+console.log("Filter")
+console.log(arregloFilter)
+
+// Find
+const arregloFind = personas.find((persona, i, arreglo) => {
+    return persona.edad > 20
+})
+console.log("Find")
+console.log(arregloFind)
