@@ -5,15 +5,27 @@ import {filtrarPorTalle, renderizarCatalogo, datosProductos} from "./funcion.js"
 import { obtenerDatos } from './obtenerDatos.js'
 
 
-// const productosMascotas = await obtenerDatos(URL_PRODUCTOS)
+
+console.log('cargado')
 
 // Persistencia
-localStorage.setItem('numero', 1)
+localStorage.setItem('numero', 123)
+const numero = localStorage.getItem('numero')
+console.log(numero)
+
+const numeros = [1, 2, 3, 4]
+const conversionCadena = JSON.stringify(numeros)
+localStorage.setItem('numeros', conversionCadena)
+const misNumeros = localStorage.getItem('numeros')
+const conversionObjeto = JSON.parse()
+console.log( typeof misNumeros) 
+
+// const productosMascotas = await obtenerDatos(URL_PRODUCTOS)
 
 // Callback
-obtenerDatos(URL_PRODUCTOS).then(() => {
-    
-})
+/*obtenerDatos(URL_PRODUCTOS).then(() => {
+
+})*/
 
 // Utilizar un objeto para acceder al HTML
 // Se refencia un elemento
